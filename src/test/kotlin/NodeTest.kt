@@ -30,7 +30,7 @@ class NodeTest {
 
     @Test
     fun test() {
-        driver?.get("http://localhost:3000/")
+        driver?.get("http://localhost:10000/")
         val el = driver?.findElement(By.xpath("//*[text()='How about a nice ordered list!']"))
         assertTrue(el != null)
     }
